@@ -7,7 +7,7 @@ Feature: Flipkart Test cases
 #Then user enters "ankitpatel9429@gmail.com" and "Erpa_1992"
 #Then user clicks on login button
 #Then user redirected to home page
-#Then close the browser
+#Then close the Chrome browser
 
 Scenario Outline:: Flipkart login test
 
