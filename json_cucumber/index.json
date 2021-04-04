@@ -1,0 +1,107 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Enter test data on contact Page",
+        "description": "",
+        "id": "test-data-table;enter-test-data-on-contact-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 13115653400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user on contact page",
+            "match": {
+              "location": "DataTableStepDefination.user_on_contact_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 15398000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Check the page title",
+            "match": {
+              "location": "DataTableStepDefination.check_the_page_title()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1141346900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Enter contact informations",
+            "match": {
+              "location": "DataTableStepDefination.enter_contact_informations(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "1",
+                  "Sub1",
+                  "Message 1",
+                  "Name 1",
+                  "abc@gmail.com",
+                  "1234567893"
+                ],
+                "line": 8
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 11258651800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user click on submit button",
+            "match": {
+              "location": "DataTableStepDefination.user_click_on_submit_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 51325100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "confirm the submit message",
+            "match": {
+              "location": "DataTableStepDefination.confirm_the_submit_message()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 809621400,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "close the contact page browser",
+            "match": {
+              "location": "DataTableStepDefination.close_the_contact_page_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Test Data Table",
+    "description": "",
+    "id": "test-data-table",
+    "keyword": "Feature",
+    "uri": "E:/Java/Selenium_WorkSpace/BDD_CucumberFramework/src/main/java/Features/TestDataTable.feature"
+  }
+]
