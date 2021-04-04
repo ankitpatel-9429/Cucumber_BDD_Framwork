@@ -85,6 +85,7 @@ public class DataTableStepDefination {
 	@Then("^close the contact page browser$")
 	public void close_the_contact_page_browser()  {
 	    driver.quit();
+	    
 	}
 
 }
