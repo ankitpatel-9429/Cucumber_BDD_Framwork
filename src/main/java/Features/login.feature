@@ -20,7 +20,7 @@ Then close the browser
 
 Examples:
 
-|	uname				 |	psd		|
+|	uname				  |	psd		    |
 |ankitpatel9429@gmail.com| Erpa_1992|
 |ankitpatel9429			 |Erpa_1992	|
 
