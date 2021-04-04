@@ -3,7 +3,7 @@ Feature: Flipkart Test cases
 #Scenario: Flipkart login test
 #
 #Given User is on login page
-#When Title is login page is flipkart login
+#When Title is login page is flipkart login Page
 #Then user enters "ankitpatel9429@gmail.com" and "Erpa_1992"
 #Then user clicks on login button
 #Then user redirected to home page
