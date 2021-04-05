@@ -4,47 +4,58 @@
     "elements": [
       {
         "line": 3,
-        "name": "Enter test data on contact Page",
+        "name": "Submit contact info using data table and Maps",
         "description": "",
-        "id": "test-data-table;enter-test-data-on-contact-page",
+        "id": "datable-using-map;submit-contact-info-using-data-table-and-maps",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 13115653400,
+              "duration": 10597185100,
               "status": "passed"
             },
-            "line": 5,
+            "line": 6,
             "name": "user on contact page",
             "match": {
-              "location": "DataTableStepDefination.user_on_contact_page()"
+              "location": "DataTableMapStepDefinition.user_on_contact_page()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 15398000,
+              "duration": 15119800,
               "status": "passed"
             },
-            "line": 6,
+            "line": 7,
             "name": "Check the page title",
             "match": {
-              "location": "DataTableStepDefination.check_the_page_title()"
+              "location": "DataTableMapStepDefinition.check_the_page_title()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 1141346900,
+              "duration": 28894927500,
               "status": "passed"
             },
-            "line": 7,
+            "line": 8,
             "name": "Enter contact informations",
             "match": {
-              "location": "DataTableStepDefination.enter_contact_informations(DataTable)"
+              "location": "DataTableMapStepDefinition.enter_contact_informations(DataTable)"
             },
             "rows": [
+              {
+                "cells": [
+                  "cat",
+                  "subject",
+                  "message",
+                  "name",
+                  "email",
+                  "phono"
+                ],
+                "line": 9
+              },
               {
                 "cells": [
                   "1",
@@ -54,54 +65,52 @@
                   "abc@gmail.com",
                   "1234567893"
                 ],
-                "line": 8
+                "line": 10
+              },
+              {
+                "cells": [
+                  "2",
+                  "Sub2",
+                  "Message 2",
+                  "Name 2",
+                  "abc2@gmail.com",
+                  "1234567893"
+                ],
+                "line": 11
+              },
+              {
+                "cells": [
+                  "3",
+                  "Sub3",
+                  "Message 3",
+                  "Name 3",
+                  "abc3@gmail.com",
+                  "1234567893"
+                ],
+                "line": 12
               }
             ],
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 11258651800,
+              "duration": 894280700,
               "status": "passed"
             },
-            "line": 10,
-            "name": "user click on submit button",
-            "match": {
-              "location": "DataTableStepDefination.user_click_on_submit_button()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 51325100,
-              "status": "passed"
-            },
-            "line": 11,
-            "name": "confirm the submit message",
-            "match": {
-              "location": "DataTableStepDefination.confirm_the_submit_message()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 809621400,
-              "status": "passed"
-            },
-            "line": 12,
+            "line": 14,
             "name": "close the contact page browser",
             "match": {
-              "location": "DataTableStepDefination.close_the_contact_page_browser()"
+              "location": "DataTableMapStepDefinition.close_the_contact_page_browser()"
             },
             "keyword": "Then "
           }
         ]
       }
     ],
-    "name": "Test Data Table",
+    "name": "Datable using map",
     "description": "",
-    "id": "test-data-table",
+    "id": "datable-using-map",
     "keyword": "Feature",
-    "uri": "E:/Java/Selenium_WorkSpace/BDD_CucumberFramework/src/main/java/Features/TestDataTable.feature"
+    "uri": "E:/Java/Selenium_WorkSpace/BDD_CucumberFramework/src/main/java/Features/DataTable_Map.feature"
   }
 ]

@@ -1,33 +1,44 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("E:/Java/Selenium_WorkSpace/BDD_CucumberFramework/src/main/java/Features/TestDataTable.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("E:/Java/Selenium_WorkSpace/BDD_CucumberFramework/src/main/java/Features/DataTable_Map.feature");
 formatter.feature({
   "line": 1,
-  "name": "Test Data Table",
+  "name": "Datable using map",
   "description": "",
-  "id": "test-data-table",
+  "id": "datable-using-map",
   "keyword": "Feature"
 });
 formatter.scenario({
   "line": 3,
-  "name": "Enter test data on contact Page",
+  "name": "Submit contact info using data table and Maps",
   "description": "",
-  "id": "test-data-table;enter-test-data-on-contact-page",
+  "id": "datable-using-map;submit-contact-info-using-data-table-and-maps",
   "type": "scenario",
   "keyword": "Scenario"
 });
 formatter.step({
-  "line": 5,
+  "line": 6,
   "name": "user on contact page",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 6,
+  "line": 7,
   "name": "Check the page title",
   "keyword": "When "
 });
 formatter.step({
-  "line": 7,
+  "line": 8,
   "name": "Enter contact informations",
   "rows": [
+    {
+      "cells": [
+        "cat",
+        "subject",
+        "message",
+        "name",
+        "email",
+        "phono"
+      ],
+      "line": 9
+    },
     {
       "cells": [
         "1",
@@ -37,66 +48,64 @@ formatter.step({
         "abc@gmail.com",
         "1234567893"
       ],
-      "line": 8
+      "line": 10
+    },
+    {
+      "cells": [
+        "2",
+        "Sub2",
+        "Message 2",
+        "Name 2",
+        "abc2@gmail.com",
+        "1234567893"
+      ],
+      "line": 11
+    },
+    {
+      "cells": [
+        "3",
+        "Sub3",
+        "Message 3",
+        "Name 3",
+        "abc3@gmail.com",
+        "1234567893"
+      ],
+      "line": 12
     }
   ],
   "keyword": "Then "
 });
 formatter.step({
-  "line": 10,
-  "name": "user click on submit button",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 11,
-  "name": "confirm the submit message",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 12,
+  "line": 14,
   "name": "close the contact page browser",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "DataTableStepDefination.user_on_contact_page()"
+  "location": "DataTableMapStepDefinition.user_on_contact_page()"
 });
 formatter.result({
-  "duration": 13115653400,
+  "duration": 10597185100,
   "status": "passed"
 });
 formatter.match({
-  "location": "DataTableStepDefination.check_the_page_title()"
+  "location": "DataTableMapStepDefinition.check_the_page_title()"
 });
 formatter.result({
-  "duration": 15398000,
+  "duration": 15119800,
   "status": "passed"
 });
 formatter.match({
-  "location": "DataTableStepDefination.enter_contact_informations(DataTable)"
+  "location": "DataTableMapStepDefinition.enter_contact_informations(DataTable)"
 });
 formatter.result({
-  "duration": 1141346900,
+  "duration": 28894927500,
   "status": "passed"
 });
 formatter.match({
-  "location": "DataTableStepDefination.user_click_on_submit_button()"
+  "location": "DataTableMapStepDefinition.close_the_contact_page_browser()"
 });
 formatter.result({
-  "duration": 11258651800,
-  "status": "passed"
-});
-formatter.match({
-  "location": "DataTableStepDefination.confirm_the_submit_message()"
-});
-formatter.result({
-  "duration": 51325100,
-  "status": "passed"
-});
-formatter.match({
-  "location": "DataTableStepDefination.close_the_contact_page_browser()"
-});
-formatter.result({
-  "duration": 809621400,
+  "duration": 894280700,
   "status": "passed"
 });
 });
