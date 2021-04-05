@@ -16,17 +16,17 @@ formatter.scenario({
 });
 formatter.step({
   "line": 6,
-  "name": "user on contact page",
+  "name": "a user on contact page",
   "keyword": "Given "
 });
 formatter.step({
   "line": 7,
-  "name": "Check the page title",
+  "name": "a Check the page title",
   "keyword": "When "
 });
 formatter.step({
   "line": 8,
-  "name": "Enter contact informations",
+  "name": "a Enter contact informations",
   "rows": [
     {
       "cells": [
@@ -77,35 +77,35 @@ formatter.step({
 });
 formatter.step({
   "line": 14,
-  "name": "close the contact page browser",
+  "name": "a close the contact page browser",
   "keyword": "Then "
 });
 formatter.match({
   "location": "DataTableMapStepDefinition.user_on_contact_page()"
 });
 formatter.result({
-  "duration": 10597185100,
+  "duration": 14910365000,
   "status": "passed"
 });
 formatter.match({
   "location": "DataTableMapStepDefinition.check_the_page_title()"
 });
 formatter.result({
-  "duration": 15119800,
+  "duration": 15924900,
   "status": "passed"
 });
 formatter.match({
   "location": "DataTableMapStepDefinition.enter_contact_informations(DataTable)"
 });
 formatter.result({
-  "duration": 28894927500,
+  "duration": 31122490700,
   "status": "passed"
 });
 formatter.match({
   "location": "DataTableMapStepDefinition.close_the_contact_page_browser()"
 });
 formatter.result({
-  "duration": 894280700,
+  "duration": 819161600,
   "status": "passed"
 });
 });

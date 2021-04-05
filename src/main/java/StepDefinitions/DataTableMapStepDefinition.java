@@ -32,7 +32,7 @@ public class DataTableMapStepDefinition {
 
 	}
 
-	@Given("^user on contact page$")
+	@Given("^a user on contact page$")
 	public void user_on_contact_page() {
 
 		System.setProperty("webdriver.chrome.driver", "E:\\Java\\SeleniumJars\\chromedriver.exe");
@@ -46,14 +46,14 @@ public class DataTableMapStepDefinition {
 
 	}
 
-	@When("^Check the page title$")
+	@When("^a Check the page title$")
 	public void check_the_page_title() {
 		String title = driver.getTitle();
 		Assert.assertEquals("Contact Smartsheet Application | Smartsheet Learning Center", title);
 
 	}
 
-	@Then("^Enter contact informations$")
+	@Then("^a Enter contact informations$")
 	public void enter_contact_informations(DataTable data) throws InterruptedException {
 		driver.manage().window().maximize();
 
@@ -81,7 +81,7 @@ public class DataTableMapStepDefinition {
 	}
 
 	
-	@Then("^close the contact page browser$")
+	@Then("^a close the contact page browser$")
 	public void close_the_contact_page_browser() {
 		driver.quit();
 

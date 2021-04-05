@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="40.401513">
-    <testcase classname="Datable using map" name="Submit contact info using data table and Maps" time="40.401513">
-        <system-out><![CDATA[Given user on contact page..................................................passed
-When Check the page title...................................................passed
-Then Enter contact informations.............................................passed
-Then close the contact page browser.........................................passed
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="46.867942">
+    <testcase classname="Datable using map" name="Submit contact info using data table and Maps" time="46.867942">
+        <system-out><![CDATA[Given a user on contact page................................................passed
+When a Check the page title.................................................passed
+Then a Enter contact informations...........................................passed
+Then a close the contact page browser.......................................passed
 ]]></system-out>
     </testcase>
 </testsuite>
