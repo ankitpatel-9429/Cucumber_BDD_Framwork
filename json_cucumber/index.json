@@ -3,114 +3,340 @@
     "line": 1,
     "elements": [
       {
-        "line": 3,
-        "name": "Submit contact info using data table and Maps",
+        "before": [
+          {
+            "result": {
+              "duration": 496100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.setUP()"
+            }
+          },
+          {
+            "result": {
+              "duration": 313100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.setUP1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 112300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.beforeFirst()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "This is First test",
         "description": "",
-        "id": "datable-using-map;submit-contact-info-using-data-table-and-maps",
+        "id": "test-tagged-hooks;this-is-first-test",
+        "after": [
+          {
+            "result": {
+              "duration": 215600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.afterFirst()"
+            }
+          },
+          {
+            "result": {
+              "duration": 233300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.tearDown1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 262700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.tearDown()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 14910365000,
+              "duration": 279995400,
               "status": "passed"
             },
-            "line": 6,
-            "name": "a user on contact page",
+            "line": 5,
+            "name": "this is the first step",
             "match": {
-              "location": "DataTableMapStepDefinition.user_on_contact_page()"
+              "location": "TaggedHooksStepDefinition.this_is_the_first_step()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 15924900,
+              "duration": 107600,
               "status": "passed"
             },
-            "line": 7,
-            "name": "a Check the page title",
+            "line": 6,
+            "name": "this is the second step",
             "match": {
-              "location": "DataTableMapStepDefinition.check_the_page_title()"
+              "location": "TaggedHooksStepDefinition.this_is_the_second_step()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 31122490700,
+              "duration": 166200,
               "status": "passed"
             },
-            "line": 8,
-            "name": "a Enter contact informations",
+            "line": 7,
+            "name": "this is the third step",
             "match": {
-              "location": "DataTableMapStepDefinition.enter_contact_informations(DataTable)"
+              "location": "TaggedHooksStepDefinition.this_is_the_third_step()"
             },
-            "rows": [
-              {
-                "cells": [
-                  "cat",
-                  "subject",
-                  "message",
-                  "name",
-                  "email",
-                  "phono"
-                ],
-                "line": 9
-              },
-              {
-                "cells": [
-                  "1",
-                  "Sub1",
-                  "Message 1",
-                  "Name 1",
-                  "abc@gmail.com",
-                  "1234567893"
-                ],
-                "line": 10
-              },
-              {
-                "cells": [
-                  "2",
-                  "Sub2",
-                  "Message 2",
-                  "Name 2",
-                  "abc2@gmail.com",
-                  "1234567893"
-                ],
-                "line": 11
-              },
-              {
-                "cells": [
-                  "3",
-                  "Sub3",
-                  "Message 3",
-                  "Name 3",
-                  "abc3@gmail.com",
-                  "1234567893"
-                ],
-                "line": 12
-              }
-            ],
             "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@First"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 369700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.setUP()"
+            }
           },
           {
             "result": {
-              "duration": 819161600,
+              "duration": 389000,
               "status": "passed"
             },
-            "line": 14,
-            "name": "a close the contact page browser",
             "match": {
-              "location": "DataTableMapStepDefinition.close_the_contact_page_browser()"
+              "location": "TaggedHooksStepDefinition.setUP1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 108800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.beforeSecond()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "This is Second test",
+        "description": "",
+        "id": "test-tagged-hooks;this-is-second-test",
+        "after": [
+          {
+            "result": {
+              "duration": 209600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.afterSecond()"
+            }
+          },
+          {
+            "result": {
+              "duration": 169800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.tearDown1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 146700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 181500,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "this is the first step",
+            "match": {
+              "location": "TaggedHooksStepDefinition.this_is_the_first_step()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 231600,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "this is the second step",
+            "match": {
+              "location": "TaggedHooksStepDefinition.this_is_the_second_step()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 190400,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "this is the third step",
+            "match": {
+              "location": "TaggedHooksStepDefinition.this_is_the_third_step()"
             },
             "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 9,
+            "name": "@Second"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 318300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.setUP()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1291800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.setUP1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 185700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.beforeThird()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "This is Third test",
+        "description": "",
+        "id": "test-tagged-hooks;this-is-third-test",
+        "after": [
+          {
+            "result": {
+              "duration": 90700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.afterThird()"
+            }
+          },
+          {
+            "result": {
+              "duration": 132700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.tearDown1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1014600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 64800,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "this is the first step",
+            "match": {
+              "location": "TaggedHooksStepDefinition.this_is_the_first_step()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 146400,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "this is the second step",
+            "match": {
+              "location": "TaggedHooksStepDefinition.this_is_the_second_step()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 247000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "this is the third step",
+            "match": {
+              "location": "TaggedHooksStepDefinition.this_is_the_third_step()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 15,
+            "name": "@Third"
           }
         ]
       }
     ],
-    "name": "Datable using map",
+    "name": "Test Tagged Hooks",
     "description": "",
-    "id": "datable-using-map",
+    "id": "test-tagged-hooks",
     "keyword": "Feature",
-    "uri": "E:/Java/Selenium_WorkSpace/BDD_CucumberFramework/src/main/java/Features/DataTable_Map.feature"
+    "uri": "E:/Java/Selenium_WorkSpace/BDD_CucumberFramework/src/main/java/Features/taggedhooks.feature"
   }
 ]
